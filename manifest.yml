@@ -1,0 +1,10 @@
+---
+applications:
+- name: hyeseong-myadmin
+  memory: 512M
+  host: hyeseong-myadmin
+  domain: paas-ta.org
+  services:
+  - hyeseong-mysql-db
+  instances: 1
+  disk_quota: 512M
